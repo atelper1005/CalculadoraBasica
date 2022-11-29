@@ -1,3 +1,5 @@
+package org.losremedios.daw1.prog.ut3.CalculadoraBasica.src;
+
 public class Persona {
     private String nombre;
 
@@ -36,6 +38,9 @@ public class Persona {
         }
     }
     public void NombreCompleto() {
-
+        System.out.println(nombre + apellidos);
+    }
+    public void Iniciales() {
+        System.out.println(this.nombre.charAt(0) + " " + this.apellidos.charAt(0));
     }
 }
